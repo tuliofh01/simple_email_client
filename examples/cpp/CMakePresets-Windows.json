@@ -1,0 +1,74 @@
+{
+    "version": 5,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 15,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "windows-vs2022",
+            "displayName": "Windows Visual Studio 2022",
+            "description": "Windows build using Visual Studio 2022",
+            "generator": "Visual Studio 17 2022",
+            "architecture": "x64",
+            "binaryDir": "${sourceDir}/build-vs2022",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "windows-vs2019",
+            "displayName": "Windows Visual Studio 2019",
+            "description": "Windows build using Visual Studio 2019",
+            "generator": "Visual Studio 16 2019",
+            "architecture": "x64",
+            "binaryDir": "${sourceDir}/build-vs2019",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "windows-mingw",
+            "displayName": "Windows MinGW",
+            "description": "Windows build using MinGW",
+            "generator": "MinGW Makefiles",
+            "binaryDir": "${sourceDir}/build-mingw",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "windows-msys2",
+            "displayName": "Windows MSYS2",
+            "description": "Windows build using MSYS2",
+            "generator": "Unix Makefiles",
+            "binaryDir": "${sourceDir}/build-msys2",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "windows-vs2022",
+            "configurePreset": "windows-vs2022",
+            "configuration": "Release"
+        },
+        {
+            "name": "windows-vs2019",
+            "configurePreset": "windows-vs2019",
+            "configuration": "Release"
+        },
+        {
+            "name": "windows-mingw",
+            "configurePreset": "windows-mingw",
+            "jobs": 4
+        },
+        {
+            "name": "windows-msys2",
+            "configurePreset": "windows-msys2",
+            "jobs": 4
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+/usr/sbin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/send_mail.dir/link.d CMakeFiles/send_mail.dir/src/main.cpp.o -o send_mail  /usr/lib/libcurl.so /usr/lib/libcurl.so

@@ -1,0 +1,10 @@
+/home/tuliofh01/Documents/Carreira Profissional/Ocupações Atuais/Estágios/2026/ARSAE-MG/Arquivos/smtp_client/examples/cpp/build/CMakeFiles/send_mail.dir
+/home/tuliofh01/Documents/Carreira Profissional/Ocupações Atuais/Estágios/2026/ARSAE-MG/Arquivos/smtp_client/examples/cpp/build/CMakeFiles/package.dir
+/home/tuliofh01/Documents/Carreira Profissional/Ocupações Atuais/Estágios/2026/ARSAE-MG/Arquivos/smtp_client/examples/cpp/build/CMakeFiles/package_source.dir
+/home/tuliofh01/Documents/Carreira Profissional/Ocupações Atuais/Estágios/2026/ARSAE-MG/Arquivos/smtp_client/examples/cpp/build/CMakeFiles/test.dir
+/home/tuliofh01/Documents/Carreira Profissional/Ocupações Atuais/Estágios/2026/ARSAE-MG/Arquivos/smtp_client/examples/cpp/build/CMakeFiles/edit_cache.dir
+/home/tuliofh01/Documents/Carreira Profissional/Ocupações Atuais/Estágios/2026/ARSAE-MG/Arquivos/smtp_client/examples/cpp/build/CMakeFiles/rebuild_cache.dir
+/home/tuliofh01/Documents/Carreira Profissional/Ocupações Atuais/Estágios/2026/ARSAE-MG/Arquivos/smtp_client/examples/cpp/build/CMakeFiles/list_install_components.dir
+/home/tuliofh01/Documents/Carreira Profissional/Ocupações Atuais/Estágios/2026/ARSAE-MG/Arquivos/smtp_client/examples/cpp/build/CMakeFiles/install.dir
+/home/tuliofh01/Documents/Carreira Profissional/Ocupações Atuais/Estágios/2026/ARSAE-MG/Arquivos/smtp_client/examples/cpp/build/CMakeFiles/install/local.dir
+/home/tuliofh01/Documents/Carreira Profissional/Ocupações Atuais/Estágios/2026/ARSAE-MG/Arquivos/smtp_client/examples/cpp/build/CMakeFiles/install/strip.dir
