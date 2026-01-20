@@ -1,0 +1,15 @@
+# SMTP Client - Python Version
+# Core dependencies (Python standard library handles most functionality)
+# No external dependencies required for basic SMTP functionality
+
+# Optional dependencies for enhanced functionality:
+# secure-smtplib>=0.3.0  # Enhanced SMTP security features
+# dnspython>=2.0.0      # DNS lookup utilities
+# keyring>=24.0.0       # Secure credential storage
+
+# Development dependencies (uncomment for development):
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.0.0
